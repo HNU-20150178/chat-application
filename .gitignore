@@ -1,0 +1,27 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Sensitive Data ###
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+*.log
+*.gz
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Node ###
+node_modules/
+npm-debug.log
